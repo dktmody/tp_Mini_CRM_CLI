@@ -3,7 +3,8 @@
 # Mini-CRM CLI (Go)
 
 Ce dépôt contient une mini-application CLI pour gérer des contacts (CRUD).
-L'application supporte trois backends de stockage interchangeables : mémoire, fichier JSON et GORM/SQLite.
+L'application supporte trois backends de stockage interchangeables : mémoire, fichier JSON et GORM/SQLite.  
+Pour avoir plus d'infos concernant les consignes, voir le fichier à la racine nommé consignes.md.
 
 ## Prérequis
 
@@ -288,3 +289,4 @@ Notes :
 ```bash
 go run ./cmd/crm --config config.yaml add -n "Tmp" -e "t@e.com"
 ```
+
