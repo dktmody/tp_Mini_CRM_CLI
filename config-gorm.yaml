@@ -1,0 +1,4 @@
+storage:
+  type: gorm
+  gorm:
+    path: test_contacts.db

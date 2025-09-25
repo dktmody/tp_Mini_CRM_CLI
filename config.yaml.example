@@ -1,0 +1,10 @@
+# Exemple de configuration pour tp1 Mini CRM
+# Copiez ce fichier en `config.yaml` pour créer votre configuration locale
+# (le dépôt ignore `config.yaml` par défaut afin de ne pas committer vos réglages locaux).
+# Par défaut on choisit ici le backend JSON (persistant) pour les tests.
+storage:
+  type: json # options: memory, json, gorm
+  json:
+    path: contacts.json
+  gorm:
+    path: contacts.db

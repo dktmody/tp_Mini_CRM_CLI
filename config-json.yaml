@@ -1,0 +1,4 @@
+storage:
+  type: json
+  json:
+    path: test_contacts.json
